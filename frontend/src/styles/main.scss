@@ -1,0 +1,11 @@
+// Bootstrap (si tu l’utilises déjà)
+@import "bootstrap/scss/bootstrap";
+
+// Tes composants/pages
+@import "./SCSS/components/header.scss";
+@import "./SCSS/components/footer.scss";
+@import "./SCSS/pages/home.scss";
+@import "./SCSS/pages/artisansList.scss";
+@import "./SCSS/pages/artisanDetail.scss";
+
+

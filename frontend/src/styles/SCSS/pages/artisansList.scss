@@ -1,0 +1,93 @@
+/* ARTISANS LIST PAGE */
+
+.list-header {
+  margin: 24px 0 12px;
+
+  h1 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .list-breadcrumbs {
+    margin: 0 0 8px;
+    color: #6b7280;
+
+    a {
+      color: #0ea5e9;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+.list-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.list-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  padding: 16px;
+
+  .list-card__title {
+    margin: 0 0 4px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .list-card__meta {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 8px;
+  }
+
+  .list-card__actions {
+    margin-top: 8px;
+  }
+}
+
+/* États */
+.list-empty {
+  color: #6b7280;
+  padding: 8px 0;
+}
+
+.alert {
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #fde7e7;
+  border: 1px solid #f4c7c7;
+  color: #9b1c1c;
+}
+
+/* Barre de recherche en haut de liste (si tu l'ajoutes) */
+.list-search {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0 16px;
+
+  input {
+    height: 38px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 0 10px;
+    min-width: 240px;
+  }
+  button {
+    height: 38px;
+    border: 0;
+    border-radius: 8px;
+    padding: 0 12px;
+    background: #0ea5e9;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover { background: #0284c7; }
+  }
+}

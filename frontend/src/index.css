@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+a:hover {
+  text-decoration: underline;
+}
